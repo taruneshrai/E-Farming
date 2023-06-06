@@ -1,0 +1,40 @@
+@charset "ISO-8859-1";
+
+#homebody{
+	background-color:white;
+}
+
+#loginbody{
+	background-color: #000000;
+background-image: url("back.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+} 
+
+#registerbody{
+	background-color: #000000;
+background-image: url("back.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+} 
+
+.logininput1{
+	 opacity:0.5;
+	 } 
+
+
+
+html {
+  --text-color-normal: #0a244d;
+  --text-color-light: #8cabd9;
+}
+
+html[data-theme='dark'] {
+  --text-color-normal: hsl(210, 10%, 62%);
+  --text-color-light: hsl(210, 15%, 35%);
+  --text-color-richer: hsl(210, 50%, 72%);
+  --text-color-highlight: hsl(25, 70%, 45%);
+}
+ 
